@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Grooming Hewan</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Optional: Bootstrap JS Bundle -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS (optional, after Bootstrap) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a href="beranda.html" class="navbar-brand d-flex align-items-center">
+                    <img src="Gambar/loo artelin.png" alt="Logo Artelin Petcare" style="height:40px;width:auto;margin-right:8px;">
+                    <span>Artelin Petcare</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="beranda.html">Beranda</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#layanan" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="konsultasi.html">Konsultasi Dokter Hewan</a></li>
+                                <li><a class="dropdown-item" href="chekup.html">Pemeriksaan Kesehatan</a></li>
+                                <li><a class="dropdown-item" href="vaksinasi.html">Vaksinasi</a></li>
+                                <li><a class="dropdown-item" href="tindakan-bedah.html">Tindakan Bedah</a></li>
+                                <li><a class="dropdown-item" href="rawatinap.html">Rawat Inap</a></li>
+                                <li><a class="dropdown-item" href="hotel.html">Hotel Hewan</a></li>
+                                <li><a class="dropdown-item" href="grooming.html">Grooming</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Carousel Section -->
+        <section class="container my-4">
+            <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Gambar/pangkas hewan.jpg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Layanan Grooming">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Layanan Grooming</h3>
+                            <p>Perawatan lengkap untuk hewan kesayangan Anda</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/foto kucing.jpg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Perawatan Bulu">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Perawatan Bulu</h3>
+                            <p>Mandi, potong kuku, dan perawatan bulu oleh tim profesional</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/foto anjing.jpg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Hasil Grooming">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Hasil Grooming</h3>
+                            <p>Hewan tampil bersih, rapi, dan bahagia setelah grooming</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/dok and pet.jpeg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Kepuasan Pelanggan">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Kepuasan Pelanggan</h3>
+                            <p>Hewan nyaman & rileks selama proses grooming di Artelin Petcare</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Penjelasan Layanan Grooming -->
+        <section class="container my-5">
+            <h2 class="text-center mb-3">Layanan Grooming</h2>
+            <p class="text-center text-muted mb-4">Perawatan lengkap untuk hewan kesayangan Anda</p>
+            <div class="mx-auto p-4 bg-white bg-opacity-75 rounded-4 shadow" style="max-width:700px;">
+                <p>Kami menyediakan layanan grooming untuk anjing, kucing, dan hewan kecil lainnya. Proses grooming dilakukan oleh tenaga profesional dengan produk yang aman dan berkualitas.</p>
+                <ul class="mb-0" style="margin:1.5rem 0 0 1.2rem;color:#444;font-size:1.05em;">
+                    <li>Mandi & pengeringan</li>
+                    <li>Pemotongan kuku & pembersihan telinga</li>
+                    <li>Perawatan bulu (menyisir, trimming, cukur)</li>
+                    <li>Pemberian parfum & anti kutu</li>
+                    <li>Penanganan khusus untuk hewan sensitif</li>
+                    <li>Lingkungan bersih & higienis</li>
+                </ul>
+                <p style="margin-top:1.5rem;">Buat janji grooming sekarang dan rasakan perbedaannya di Artelin Petcare!</p>
+            </div>
+        </section>
+
+        <!-- Galeri Foto Grooming -->
+        <section class="container my-5">
+            <h2 class="text-center mb-3">Galeri Grooming</h2>
+            <p class="text-center text-muted mb-4">Hasil grooming & momen bahagia hewan di Artelin Petcare</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/pangkas hewan.jpg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Grooming 1">
+                        <div class="card-body">
+                            <div class="fw-bold">Proses grooming oleh tim profesional</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/foto kucing.jpg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Grooming 2">
+                        <div class="card-body">
+                            <div class="fw-bold">Kucing tampil bersih & rapi setelah grooming</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/foto anjing.jpg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Grooming 3">
+                        <div class="card-body">
+                            <div class="fw-bold">Anjing bahagia setelah perawatan grooming</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/dok and pet.jpeg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Grooming 4">
+                        <div class="card-body">
+                            <div class="fw-bold">Hewan nyaman & rileks selama proses grooming</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Tentang Artelin Petcare</h3>
+                    <p>Kami berdedikasi memberikan solusi penitipan & perawatan terbaik untuk hewan kesayangan Anda.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Link Cepat</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none" href="belajar.html">Beranda</a></li>
+                        <li><a class="text-light text-decoration-none" href="#layanan">Layanan</a></li>
+                        <li><a class="text-light text-decoration-none" href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Kontak</h3>
+                    <p>Email: info@artelinpetcare.com</p>
+                    <p>Telepon: 0852-1153-8772</p>
+                    <p>Alamat: Jl. Klinik Artelin No. 123</p>
+                </div>
+            </div>
+            <div class="text-center border-top pt-3 mt-3">
+                <p class="mb-0">© 2025 Artelin Petcare. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div class="position-fixed bottom-0 end-0 m-4" style="z-index:1050;">
+        <button class="btn btn-primary rounded-circle shadow-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width:60px;height:60px;font-size:2rem;">
+            💬
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end p-2">
+            <li><a href="https://www.instagram.com/artelin_pet_care?utm_source=ig_web_button_share_sheet&igsh=ZGpjdGIyMmp5NWU3" target="_blank" class="dropdown-item d-flex align-items-center"><img src="Gambar/logoinstagram.png" alt="Instagram" style="width:32px;height:32px;margin-right:8px;">Instagram</a></li>
+            <li><a href="https://wa.me/6285211538772" target="_blank" class="dropdown-item d-flex align-items-center"><img src="Gambar/logowhatsaap.png" alt="WhatsApp" style="width:32px;height:32px;margin-right:8px;">WhatsApp</a></li>
+        </ul>
+    </div>
+</body>
+</html> 

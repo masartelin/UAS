@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Vaksinasi Hewan</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Optional: Bootstrap JS Bundle -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS (optional, after Bootstrap) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a href="beranda.html" class="navbar-brand d-flex align-items-center">
+                    <img src="Gambar/loo artelin.png" alt="Logo Artelin Petcare" style="height:40px;width:auto;margin-right:8px;">
+                    <span>Artelin Petcare</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="beranda.html">Beranda</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#layanan" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="konsultasi.html">Konsultasi Dokter Hewan</a></li>
+                                <li><a class="dropdown-item" href="chekup.html">Pemeriksaan Kesehatan</a></li>
+                                <li><a class="dropdown-item" href="vaksinasi.html">Vaksinasi</a></li>
+                                <li><a class="dropdown-item" href="tindakan-bedah.html">Tindakan Bedah</a></li>
+                                <li><a class="dropdown-item" href="rawatinap.html">Rawat Inap</a></li>
+                                <li><a class="dropdown-item" href="hotel.html">Hotel Hewan</a></li>
+                                <li><a class="dropdown-item" href="grooming.html">Grooming</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Carousel Section -->
+        <section class="container my-4">
+            <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Gambar/foto anjing.jpg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Vaksinasi Hewan">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Vaksinasi Hewan</h3>
+                            <p>Lindungi hewan kesayangan Anda dengan vaksinasi berkualitas</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/foto kucing.jpg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Perawatan Kesehatan">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Perawatan Kesehatan</h3>
+                            <p>Vaksinasi lengkap untuk kesehatan optimal hewan peliharaan</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/majikan and pet.jpeg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Kepuasan Pelanggan">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Kepuasan Pelanggan</h3>
+                            <p>Hewan sehat, majikan bahagia setelah vaksinasi di Artelin Petcare</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/anjing artelin.jpeg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Sertifikat Vaksinasi">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Sertifikat Vaksinasi</h3>
+                            <p>Dokumentasi lengkap dan sertifikat vaksinasi untuk hewan kesayangan</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="container my-5">
+            <h2 class="text-center mb-3">Paket Vaksinasi Hewan</h2>
+            <p class="text-center text-muted mb-4">Pilih paket vaksinasi terbaik untuk hewan kesayangan Anda</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="display-3">💉</div>
+                        <h3 class="card-title">Vaksinasi Dasar</h3>
+                        <div class="h5">Rp 150.000</div>
+                        <p class="card-text">Vaksin inti untuk anak anjing/kucing, satu kali kunjungan, dan sertifikat kesehatan.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="display-3">🧺</div>
+                        <h3 class="card-title">Vaksinasi Lengkap</h3>
+                        <div class="h5">Rp 300.000</div>
+                        <p class="card-text">Vaksin inti & tambahan, dua kali kunjungan, dan konsultasi lanjutan.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card h-100 shadow-sm text-center">
+                        <div class="display-3">🏥</div>
+                        <h3 class="card-title">Vaksinasi Premium</h3>
+                        <div class="h5">Rp 500.000</div>
+                        <p class="card-text">Paket vaksin lengkap, booster, dan pemeriksaan kesehatan tahunan.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeri Bukti Vaksinasi -->
+        <section class="container my-5">
+            <h2 class="text-center mb-3">Bukti Hewan Sudah Divaksin</h2>
+            <p class="text-center text-muted mb-4">Beberapa hewan peliharaan yang telah berhasil divaksinasi di PetVax</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/foto anjing.jpg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Anjing sudah divaksin">
+                        <div class="card-body">
+                            <div class="fw-bold">Anjing sehat & ceria setelah vaksinasi</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/foto kucing.jpg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Kucing sudah divaksin">
+                        <div class="card-body">
+                            <div class="fw-bold">Kucing lucu sudah menerima vaksin lengkap</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/anjing artelin.jpeg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Anjing Artelin divaksin">
+                        <div class="card-body">
+                            <div class="fw-bold">Proses vaksinasi berjalan aman & nyaman</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/majikan and pet.jpeg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Majikan dan hewan setelah vaksin">
+                        <div class="card-body">
+                            <div class="fw-bold">Majikan & hewan bahagia setelah vaksinasi</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Tentang PetVax</h3>
+                    <p>Kami menyediakan layanan vaksinasi profesional untuk melindungi dan menjaga kesehatan hewan peliharaan Anda.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Link Cepat</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none" href="#home">Beranda</a></li>
+                        <li><a class="text-light text-decoration-none" href="#services">Layanan</a></li>
+                        <li><a class="text-light text-decoration-none" href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Kontak</h3>
+                    <p>Email: info@artelin petcare</p>
+                    <p>Telepon: +62 852-1153-8772</p>
+                    <p>Alamat: Jl. Vaksinasi No. 400</p>
+                </div>
+            </div>
+            <div class="text-center border-top pt-3 mt-3">
+                <p class="mb-0">© 2025 PetVax. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div class="position-fixed bottom-0 end-0 m-4" style="z-index:1050;">
+        <button class="btn btn-primary rounded-circle shadow-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width:60px;height:60px;font-size:2rem;">
+            💬
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end p-2">
+            <li><a href="https://www.instagram.com/artelin_pet_care?utm_source=ig_web_button_share_sheet&igsh=ZGpjdGIyMmp5NWU3" target="_blank" class="dropdown-item d-flex align-items-center"><img src="Gambar/logoinstagram.png" alt="Instagram" style="width:32px;height:32px;margin-right:8px;">Instagram</a></li>
+            <li><a href="https://wa.me/6285211538772" target="_blank" class="dropdown-item d-flex align-items-center"><img src="Gambar/logowhatsaap.png" alt="WhatsApp" style="width:32px;height:32px;margin-right:8px;">WhatsApp</a></li>
+        </ul>
+    </div>
+</body>
+</html>

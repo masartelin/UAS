@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Tindakan Bedah Hewan</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Optional: Bootstrap JS Bundle -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom CSS (optional, after Bootstrap) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a href="beranda.html" class="navbar-brand d-flex align-items-center">
+                    <img src="Gambar/loo artelin.png" alt="Logo Artelin Petcare" style="height:40px;width:auto;margin-right:8px;">
+                    <span>Artelin Petcare</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="beranda.html">Beranda</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#layanan" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="konsultasi.html">Konsultasi Dokter Hewan</a></li>
+                                <li><a class="dropdown-item" href="chekup.html">Pemeriksaan Kesehatan</a></li>
+                                <li><a class="dropdown-item" href="vaksinasi.html">Vaksinasi</a></li>
+                                <li><a class="dropdown-item" href="tindakan-bedah.html">Tindakan Bedah</a></li>
+                                <li><a class="dropdown-item" href="rawatinap.html">Rawat Inap</a></li>
+                                <li><a class="dropdown-item" href="hotel.html">Hotel Hewan</a></li>
+                                <li><a class="dropdown-item" href="grooming.html">Grooming</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Carousel Section -->
+        <section class="container my-4">
+            <div id="mainCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Gambar/derma.png" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Tindakan Bedah Hewan">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Tindakan Bedah Hewan</h3>
+                            <p>Solusi bedah dengan standar medis tinggi dan penuh kasih sayang</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/pangkas hewan.jpg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Bedah Steril">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Bedah Steril</h3>
+                            <p>Prosedur steril yang aman dan profesional untuk hewan kesayangan</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/dok and pet.jpeg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Perawatan Pasca Bedah">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Perawatan Pasca Bedah</h3>
+                            <p>Pemulihan optimal dengan perawatan intensif dan monitoring ketat</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Gambar/majikan and pet.jpeg" class="d-block w-100 img-fluid" style="object-fit:cover;height:400px;" alt="Pemulihan Lengkap">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+                            <h3>Pemulihan Lengkap</h3>
+                            <p>Hewan sehat kembali dengan perawatan pasca bedah yang tepat</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Penjelasan Layanan Bedah -->
+        <section class="container my-5">
+            <h2 class="text-center mb-3">Layanan Tindakan Bedah Hewan</h2>
+            <p class="text-center text-muted mb-4">Solusi bedah hewan dengan standar medis tinggi dan penuh kasih sayang</p>
+            <div class="mx-auto p-4 bg-white bg-opacity-75 rounded-4 shadow" style="max-width:700px;">
+                <p>Kami menyediakan berbagai tindakan bedah untuk hewan peliharaan, mulai dari operasi minor hingga mayor, dengan dukungan dokter hewan berpengalaman dan fasilitas lengkap. Setiap prosedur dilakukan dengan mengutamakan keselamatan, kenyamanan, dan pemulihan optimal bagi hewan Anda.</p>
+                <ul class="mb-0" style="margin:1.5rem 0 0 1.2rem;color:#444;font-size:1.05em;">
+                    <li>Bedah steril (spay/neuter)</li>
+                    <li>Bedah tumor & benjolan</li>
+                    <li>Operasi ortopedi & patah tulang</li>
+                    <li>Bedah darurat & trauma</li>
+                    <li>Bedah gigi & mulut</li>
+                    <li>Perawatan luka & abses</li>
+                </ul>
+                <p style="margin-top:1.5rem;">Konsultasikan kebutuhan bedah hewan Anda bersama tim Artelin Petcare untuk solusi terbaik.</p>
+            </div>
+        </section>
+
+        <!-- Galeri Foto Tindakan Bedah -->
+        <section class="container my-5">
+            <h2 class="text-center mb-3">Galeri Tindakan Bedah</h2>
+            <p class="text-center text-muted mb-4">Beberapa dokumentasi tindakan bedah di klinik kami</p>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/derma.png" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Bedah Tumor">
+                        <div class="card-body">
+                            <div class="fw-bold">Bedah pengangkatan tumor pada anjing</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/pangkas hewan.jpg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Bedah Steril">
+                        <div class="card-body">
+                            <div class="fw-bold">Proses steril kucing betina</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/dok and pet.jpeg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Bedah Ortopedi">
+                        <div class="card-body">
+                            <div class="fw-bold">Operasi ortopedi & perawatan pasca bedah</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="card h-100 shadow-sm text-center">
+                        <img src="Gambar/majikan and pet.jpeg" class="card-img-top img-fluid" style="object-fit:cover;height:220px;" alt="Bedah Darurat">
+                        <div class="card-body">
+                            <div class="fw-bold">Bedah darurat & pemulihan bersama majikan</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Tentang Artelin Petcare</h3>
+                    <p>Kami berdedikasi memberikan solusi kesehatan dan bedah terbaik untuk hewan kesayangan Anda.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Link Cepat</h3>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light text-decoration-none" href="belajar.html">Beranda</a></li>
+                        <li><a class="text-light text-decoration-none" href="#layanan">Layanan</a></li>
+                        <li><a class="text-light text-decoration-none" href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h3 class="h5">Kontak</h3>
+                    <p>Email: info@artelin petcare</p>
+                    <p>Telepon: +62 852-1153-8772</p>
+                    <p>Alamat: Jl. Klinik Artelin No. 123</p>
+                </div>
+            </div>
+            <div class="text-center border-top pt-3 mt-3">
+                <p class="mb-0">© 2025 Artelin Petcare. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Button -->
+    <div class="position-fixed bottom-0 end-0 m-4" style="z-index:1050;">
+        <button class="btn btn-primary rounded-circle shadow-lg" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width:60px;height:60px;font-size:2rem;">
+            💬
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end p-2">
+            <li><a href="https://www.instagram.com/artelin_pet_care?utm_source=ig_web_button_share_sheet&igsh=ZGpjdGIyMmp5NWU3" target="_blank" class="dropdown-item d-flex align-items-center"><img src="Gambar/logoinstagram.png" alt="Instagram" style="width:32px;height:32px;margin-right:8px;">Instagram</a></li>
+            <li><a href="https://wa.me/6285211538772" target="_blank" class="dropdown-item d-flex align-items-center"><img src="Gambar/logowhatsaap.png" alt="WhatsApp" style="width:32px;height:32px;margin-right:8px;">WhatsApp</a></li>
+        </ul>
+    </div>
+</body>
+</html> 
